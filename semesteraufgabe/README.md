@@ -8,5 +8,5 @@ Ein Eingabefeld für die Zahl und 2 Eingaben über einen Picker um die Basen zu 
 URL: http://pan.th-brandenburg.de/~luxem/semesteraufgabe/unsereSeite.html
 
 Matrikelnummern:
-    Marco Gerlach: 
-    Marvin Luxem: 20242475
+    Marco Gerlach: 20243572 
+    Marvin Luxem:  20242475
