@@ -92,7 +92,7 @@ def print_result_page(zahl, von_basis, ziel_basis, ergebnis, error=False):
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zahlenumrechner - {result_title}</title>
-    <link rel="stylesheet" href="unserStyle.css">
+    <link rel="stylesheet" href="../semesteraufgabe/unserStyle.css">
 </head>
 <body>
     <div class="container">
@@ -119,7 +119,7 @@ def print_result_page(zahl, von_basis, ziel_basis, ergebnis, error=False):
                 <p>Bitte überprüfen Sie Ihre Eingabe und versuchen Sie es erneut.</p>""")
     
     print("""
-                <a href="unsereSeite.html" class="back-btn">← Zurück zum Umrechner</a>
+                <a href="../semesteraufgabe/unsereSeite.html" class="back-btn">← Zurück zum Umrechner</a>
             </div>
             
             <div class="info-section">
@@ -134,7 +134,7 @@ def print_result_page(zahl, von_basis, ziel_basis, ergebnis, error=False):
         </main>
         
         <footer>
-            <p>&copy; 2025 Zahlenumrechner | Made with ❤️ in Python</p>
+            <p>Made by Marvin and Marco</p>
         </footer>
     </div>
 </body>
@@ -187,7 +187,7 @@ def main():
 <head>
     <meta charset="UTF-8">
     <title>Fehler - Zahlenumrechner</title>
-    <link rel="stylesheet" href="unserStyle.css">
+    <link rel="stylesheet" href="../semesteraufgabe/unserStyle.css">
 </head>
 <body>
     <div class="container">
@@ -198,7 +198,7 @@ def main():
             <div class="result-section error">
                 <h3>Ein unerwarteter Fehler ist aufgetreten</h3>
                 <div class="result-value">Fehler: {html.escape(str(e))}</div>
-                <a href="unsereSeite.html" class="back-btn">← Zurück zum Umrechner</a>
+                <a href="../semesteraufgabe/unsereSeite.html" class="back-btn">← Zurück zum Umrechner</a>
             </div>
         </main>
     </div>
